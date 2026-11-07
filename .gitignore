@@ -1,0 +1,25 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Saídas de compilação e testes do .NET
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.user
+*.suo
+
+# Dependências, saídas e logs do front-end
+node_modules/
+dist/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos locais de IDE e do sistema
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
